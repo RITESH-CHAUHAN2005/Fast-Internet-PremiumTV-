@@ -135,9 +135,11 @@ const Index = () => {
                 </div>
               </div>
 
-              <Button className="w-full bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-white font-semibold py-3 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                Call to Order
-              </Button>
+              <a href="tel:8885659233" onClick={() => alert("You're about to call to place an order. Tap 'Call' to continue.")}>
+                <Button className="w-full bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-white font-semibold py-3 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                  Call to Order
+                </Button>
+              </a>
             </CardContent>
           </Card>
 
@@ -165,9 +167,11 @@ const Index = () => {
                 </div>
               </div>
 
-              <Button className="w-full bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-white font-semibold py-3 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                Call to Order
-              </Button>
+              <a href="tel:8885659233" onClick={() => alert("You're about to call to place an order. Tap 'Call' to continue.")}>
+                <Button className="w-full bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-white font-semibold py-3 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                  Call to Order
+                </Button>
+              </a>
             </CardContent>
           </Card>
         </div>
@@ -274,13 +278,15 @@ const Index = () => {
 
         {/* Bottom CTA */}
         <div className="text-center">
-          <Button
-            size="lg"
-            className="bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-600 hover:to-emerald-600 text-white font-semibold px-12 py-4 rounded-full text-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl border-0"
-          >
-            <Phone className="mr-2 h-5 w-5" />
-            Call Now: (888) 565-9233
-          </Button>
+        <a href="tel:8885659233" onClick={() => alert("You’re about to call customer support. Tap 'Call' to continue.")}>
+            <Button
+              size="lg"
+              className="bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-600 hover:to-emerald-600 text-white font-semibold px-8 py-4 rounded-full text-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl border-0 mb-4"
+            >
+              <Phone className="mr-2 h-5 w-5" />
+              Call Us Now: 8885659233
+            </Button>
+          </a>
         </div>
       </div>
 
