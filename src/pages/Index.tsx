@@ -48,13 +48,15 @@ const Index = () => {
             Reliable service at affordable prices
           </p>
 
-          <Button
-            size="lg"
-            className="bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-600 hover:to-emerald-600 text-white font-semibold px-8 py-4 rounded-full text-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl border-0 mb-4"
-          >
-            <Phone className="mr-2 h-5 w-5" />
-            Call Us Now: (888) 565-9233
-          </Button>
+          <a href="tel:8885659233" onClick={() => alert("You’re about to call customer support. Tap 'Call' to continue.")}>
+            <Button
+              size="lg"
+              className="bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-600 hover:to-emerald-600 text-white font-semibold px-8 py-4 rounded-full text-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl border-0 mb-4"
+            >
+              <Phone className="mr-2 h-5 w-5" />
+              Call Us Now: 8885659233
+            </Button>
+          </a>
 
           <p className="text-sm text-blue-200 font-medium">
             No Hold Time - Call Answered in Seconds
