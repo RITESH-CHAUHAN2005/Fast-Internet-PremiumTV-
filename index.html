@@ -3,40 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TaskMaster Pro - Multi-Tenant Task Management Platform</title>
-    <meta name="description" content="Professional Multi-Tenant Task Management Platform for Modern Teams" />
-    <meta name="author" content="TaskMaster Pro" />
+    <title>Fast Internet & Premium TV - Cable Services</title>
+    <meta name="description" content="Get fast internet and premium TV services at affordable prices. Reliable connection with 24/7 support." />
+    <meta name="author" content="Cable Internet Services" />
 
     <!-- Favicon -->
-    <link rel="icon" href="/trademark.png" type="image/png" />
+    <link rel="icon" type="image/png" href="internet.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="TaskMaster Pro - Task Management Platform" />
-    <meta property="og:description" content="Professional Multi-Tenant Task Management Platform for Modern Teams" />
+    <meta property="og:title" content="Fast Internet & Premium TV - Cable Services" />
+    <meta property="og:description" content="Get fast internet and premium TV services at affordable prices. Reliable connection with 24/7 support." />
     <meta property="og:type" content="website" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@taskmaster_pro" />
 
-    <!-- ✅ Global site tag (gtag.js) - Google Ads (ADD ONCE ONLY) -->
+    <!--  Google tag (gtag.js) - Install once per account -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17098792655"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
+      function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      // Replace with your own Google Ads Conversion ID
       gtag('config', 'AW-17098792655');
     </script>
 
-    <!-- ✅ Conversion Event Snippet (Example: Phone Call Conversion) -->
+    <!--  Phone Number Conversion Tracking Snippet -->
     <script>
-      gtag('event', 'conversion', {
-        send_to: 'AW-17098792655/eLyXCJqhvc0aEM-9q9k_',
-        phone_conversion_number: '(817) 290-3623'
+      gtag('config', 'AW-17098792655/eLyXCJqhvc0aEM-9q9k_', {
+        'phone_conversion_number': '(817) 290-3623'
       });
     </script>
   </head>
@@ -44,8 +47,7 @@
   <body>
     <div id="root"></div>
 
-    <!-- React App Scripts -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <!-- React Entry Script -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
